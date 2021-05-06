@@ -1,0 +1,40 @@
+.card-explanation {
+  height: 300px;
+  width: 300px;
+  border-radius: 4px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 2px 2px 8px rgb(240, 240, 240);
+  margin: 10px 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-explanation img {
+  width: 60%;
+  margin: 10px;
+}
+
+.description-layout {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 20px;
+}
+
+.description-layout h2, p {
+  margin: 0;
+  font-size: 16px;
+  font-family: Montserrat;
+}
+
+.description-layout h2 {
+  font-size: 16px;
+  padding: 30px;
+}
+
+.description-layout p {
+  font-weight: lighter;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+

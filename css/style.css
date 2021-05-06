@@ -1,0 +1,108 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/cards.css");
+@import url("components/button.css");
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: rgba(244, 238, 232, 0.4);
+}
+
+h1, h2, h3, h4 {
+  font-family: Open Sans;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-color: rgba(17, 78, 96, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 350px;
+  width: 100%;
+}
+
+.banner-layout {
+  background-color: rgba(244, 238, 232, 0.4);
+  height: 250px;
+  width: 600px;
+  box-shadow: 3px rgb(244, 238, 232);
+  outline: 1px solid rgba(17, 78, 96, 0.8);
+  outline-offset: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text {
+  text-align: center;
+}
+
+.header-text h1 {
+  font-family: Zilla Slab Highlight;
+  font-size: 40px;
+  color: rgba(244, 238, 232, 1.0);
+}
+
+.header-text h2 {
+  padding: 20px;
+  font-weight: lighter;
+  color: rgb(50, 50, 50);
+}
+
+.header-explanation {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.header-explanation h2 {
+  font-family: Montserrat;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  background-color: transparent;
+  height: 400px;
+  margin: 20px auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-layout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer-text p {
+  font-size: 14px;
+  padding: 0px 20px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding-right: 30px;
+}
+
+.footer-icons i {
+  padding: 0px 15px;
+}
